@@ -1,0 +1,143 @@
+.fixed-division {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #8abcd7;
+    height: auto;
+    /* padding: 6%; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: padding 0.3s; /* Add transition for smooth size change */
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+.content {
+    /* margin-top: 8%; Adjust the margin based on the height of your fixed division */
+    /* padding: 10%; */
+}
+
+nav {
+    margin-top: 1%;
+    display: flex;
+    background-color: #8abcd7;
+    color: black; /* Initial font color */
+    padding: 0.5%;
+    width: 100%;
+}
+
+nav a {
+    width: 100%;
+    margin-right: 10%;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 0.5%;
+    /* margin-right: 10px; */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+    /* flex-grow: 1; */
+}
+
+nav a:hover {
+    background-color: white;
+    color: #8abcd7;
+}
+.toplink{
+    font-size: large;
+    color: black;
+    /* padding-bottom: 35%; */
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Add space between the two boxes */
+    margin: 20px; /* Add margin to the container */
+}
+
+.box {
+    width: 45%; /* Adjust the width of each box */
+    border: 1px solid lightgrey; /* Add a border for visual separation */
+    padding: 2%; /* Add padding to the box */
+    background-color: lightgrey;
+}
+
+.box img {
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default image spacing */
+    margin: 0 auto 10px; /* Add bottom margin to the image */
+}
+.form {
+    display: flex;
+    max-width: 210%; /* Set a maximum width for the form */
+    /* margin:  auto; Center the form and add some margin */
+}
+
+.input[type="text"] {
+    width: 20%; /* Take up the full width of the form */
+     padding: 1%; /*Add padding for better appearance */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+.button {
+    padding: 1%; /* Match the padding of the input for consistency */
+}
+.end{
+    background: black;
+}
+.first{
+    width: 100%;
+    display: flex; /* Use flexbox to arrange the child divs */
+    font-size: small;
+}
+.div1 {
+    flex: 2; /* Div 1 takes up 3 parts out of 4 (3:1 ratio) */
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+}
+
+.div2 {
+    flex: 1; /* Div 2 takes up 1 part out of 4 (3:1 ratio) */
+    /* background-color: #ccc; */
+    padding: 20px;
+}
+.div3 {
+    flex: 1; /* Div 1 takes up 3 parts out of 4 (3:1 ratio) */
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+}
+
+.div4 {
+    flex: 1; /* Div 2 takes up 1 part out of 4 (3:1 ratio) */
+    /* background-color: #ccc; */
+    padding: 20px;
+}
+.div5 {
+    flex: 3; /* Div 1 takes up 3 parts out of 4 (3:1 ratio) */
+    /* background-color: #f2f2f2; */
+    /* padding: 5%; */
+    /* align-items:center; */
+    text-align: right;
+    font-size: small;
+    color: white;
+}
+.endlogo{
+    width: 20%;
+}
+.second{
+    background-color: grey;
+    color: white;
+    width: 100%;
+    display: flex; /* Use flexbox to arrange the child divs */
+    font-size: medium;
+    padding-bottom: 3%;
+}
+.one{
+    flex: 2;
+}
+.two{
+    flex: 4;
+    margin-left: -3%;
+}
+.three{
+    flex: 1;
+}
